@@ -13,6 +13,8 @@ to let you know which command are you giving:
     one flicker, command one
     two flickers, command two
     ... and so on
+After a command is given the red led will flash n times to confirm it's 
+executing command n.
 """
 import time, os, sys, subprocess
 
