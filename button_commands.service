@@ -1,0 +1,10 @@
+[Unit]
+Description=button_commands systemd service.
+
+[Service]
+Type=simple
+WorkingDirectory=/home/diego/src/button_commands/
+ExecStart=/usr/bin/python3 /home/diego/src/button_commands/button_commands.py
+
+[Install]
+WantedBy=default.target
