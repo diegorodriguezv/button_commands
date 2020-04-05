@@ -1,0 +1,2 @@
+#!/bin/sh
+(echo "button commands:" ; cat -n commands.txt ; echo "ENTER to exit") | wall -n
